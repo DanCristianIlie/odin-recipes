@@ -4,22 +4,84 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./css/home.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
 		<title>Odin Recipes</title>
 	</head>
 	<body>
-		<h1>Odin Recipes:</h1>
-		<ul>
-			<li>
-				<a href="./recipes/creamy_broccoli_pasta.html">Creamy Broccoli Pasta</a>
-			</li>
-			<li>
-				<a href="./recipes/mushroom_open_omelette.html"
-					>Mushroom Open Omelette</a
-				>
-			</li>
-			<li>
-				<a href="./recipes/cauliflower_pizza.html">Cauliflower Pizza</a>
-			</li>
-		</ul>
+		<nav class="nav_container" role="navigation">
+			<div class="navbar">
+				<div class="logo">
+					<img src="./img/odin.png" alt="odin" class="logo_img" />
+				</div>
+				<div class="menu">
+					<a href="./index.html" class="menu_item">Home</a>
+				</div>
+			</div>
+		</nav>
+		<div class="hero_container">
+			<div class="hero">
+				<img src="./img/hero.png" class="hero_img" alt="Food balance" />
+				<div class="hero_content">
+					<h1>Odin Recipes</h1>
+					<p>
+						We have all heard that breakfast is the most important meal of the
+						day. From kickstarting your metabolism to fueling your body with key
+						nutrients, the first meal of the day is certainly one that offers
+						some serious health benefits.
+						<br />
+						But is breakfast really the most important meal of the day, or is it
+						more essential to focus on other aspects of your diet? Read on to
+						find out more.
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="content">
+			<h2>Recipes</h2>
+			<ul class="item_container">
+				<li class="item">
+					<div
+						class="recipes_img"
+						style="background-image: url('./img/broccoli_pasta.jpg')"
+					>
+						<div class="overlay">
+							<a href="./recipes/creamy_broccoli_pasta.html">
+								<h3>Creamy Broccoli Pasta</h3>
+							</a>
+						</div>
+					</div>
+				</li>
+				<li class="item">
+					<div
+						class="recipes_img"
+						style="background-image: url('./img/mushroom_omelette.jpg')"
+					>
+						<div class="overlay">
+							<a href="./recipes/mushroom_open_omelette.html">
+								<h3>Mushroom Open Omelette</h3>
+							</a>
+						</div>
+					</div>
+				</li>
+				<li class="item">
+					<div
+						class="recipes_img"
+						style="background-image: url('./img/cauliflower_pizza.jpg')"
+					>
+						<div class="overlay">
+							<a href="./recipes/cauliflower_pizza.html">
+								<h3>Cauliflower Pizza</h3>
+							</a>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
 	</body>
 </html>

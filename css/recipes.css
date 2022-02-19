@@ -1,0 +1,89 @@
+body {
+	width: 100%;
+	max-width: 100%;
+	font-family: "Poppins", sans-serif;
+	color: #545569;
+	margin: 0 auto;
+	padding: 0;
+}
+
+h1,
+h2,
+h {
+	margin-top: 10px;
+	margin-bottom: 0;
+	color: #191348;
+}
+
+.nav_container {
+	width: 100%;
+	position: absolute;
+	padding: 0;
+	height: 70px;
+	background-color: #fff;
+	border-bottom: 1px solid #ebebeb;
+	top: 0;
+	left: 0;
+}
+
+.navbar {
+	height: 100%;
+	max-width: 1230px;
+	margin: 0 auto;
+	padding: 0 4vw;
+	display: flex;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+}
+
+.logo_img {
+	height: 100%;
+	width: auto;
+}
+
+.menu {
+	margin: 0 auto;
+	padding: 0;
+	justify-content: flex-end;
+	display: flex;
+	align-items: center;
+	flex: 1;
+}
+
+.menu_item {
+	color: #191348;
+	text-decoration: none;
+}
+
+.hero_img {
+	background-position: 50%;
+	background-size: cover;
+	height: 500px;
+	width: 100%;
+	margin: 0 auto;
+	border-bottom: #191348 solid 10px;
+}
+
+.title {
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	align-content: center;
+	margin: 0 0 50px 0;
+	padding: 0 4vw;
+}
+.item {
+	width: 100%;
+	max-width: 755px;
+	height: auto;
+	text-align: left;
+}
